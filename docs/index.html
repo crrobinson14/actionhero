@@ -558,6 +558,7 @@ package.json <span class="o">(</span>be sure to include <span class="s1">'action
       <span class="na">formatter</span><span class="p">:</span> <span class="p">[</span>
          <span class="kd">function</span><span class="p">(</span><span class="nx">s</span><span class="p">){</span> <span class="k">return</span> <span class="nb">String</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span> <span class="p">},</span>
          <span class="s1">'api.formatter.uniqueKeyName'</span> <span class="c1">// &lt;----------- HERE</span>
+      <span class="p">]</span>
     <span class="p">},</span>
     <span class="na">value</span><span class="p">:</span> <span class="p">{</span>
       <span class="na">required</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
@@ -603,7 +604,7 @@ package.json <span class="o">(</span>be sure to include <span class="s1">'action
 <span class="p">}</span>
 </code></pre>
 
-<p>The <code class="prettyprint">data</code> object passed into your action captures the state of of the connection at the time the action was started.  Midleware preProcessors have already fired, and input formatting and validation has occurred.  Here are the properties of the <code class="prettyprint">data</code> object:</p>
+<p>The <code class="prettyprint">data</code> object passed into your action captures the state of the connection at the time the action was started.  Midleware preProcessors have already fired, and input formatting and validation has occurred.  Here are the properties of the <code class="prettyprint">data</code> object:</p>
 
 <p>The goal of most actions is to do work and then modify the value of <code class="prettyprint">data.response</code>, which will eventually be sent down to the client.  </p>
 
@@ -2129,22 +2130,7 @@ If your plugin was installed via NPM, also be sure to remove it from your packag
 
 <h2 id="published-plugins">Published Plugins</h2>
 
-<ul>
-<li><a href="https://github.com/evantahler/ah-stats-plugin">ah-stats-plugin</a> Stats Integration (redis backed)</li>
-<li><a href="https://github.com/evantahler/ah-airbrake-plugin">ah-airbrake-plugin</a> Airbrake Integration</li>
-<li><a href="https://github.com/evantahler/ah-newrelic-plugin">ah-newrelic-plugin</a> NewRelic Integration</li>
-<li><a href="https://github.com/evantahler/ah-sequelize-plugin">ah-sequelize-plugin</a> Sequelize Integration for mySQL or Postgres</li>
-<li><a href="https://github.com/panjiesw/ah-nodemailer-plugin">ah-nodemailer-plugin</a> Nodemailer Integration</li>
-<li><a href="https://github.com/innerdvations/ah-ratelimit-plugin">ah-ratelimit-plugin</a> Rate Limits</li>
-<li><a href="https://github.com/innerdvations/ah-autosession-plugin">ah-autosession-plugin</a> Sessions (based off of redis-sessions)</li>
-<li><a href="https://github.com/S3bb1/ah-dashboard-plugin">ah-dashboard-plugin</a> Dashboard for ActionHero</li>
-<li><a href="https://github.com/lookaflyingdonkey/ah-jwtauth-plugin">ah-jwtauth-plugin</a> JSON Web Token Authentication</li>
-<li><a href="https://github.com/lookaflyingdonkey/ah-mongoose-plugin">ah-mongoose-plugin</a> Mongoose Model Loader</li>
-<li><a href="https://github.com/lookaflyingdonkey/ah-xsignature-plugin">ah-xsignature-plugin</a> Content Checksum for Actions</li>
-<li><a href="https://github.com/supamii/ah-swagger-plugin">ah-swagger-plugin</a> Swagger UI Documentation</li>
-<li><a href="https://github.com/eduardogch/ah-mongodb-plugin">ah-mongodb-plugin</a> MongoDB + Mongoose</li>
-<li><a href="https://github.com/eduardogch/ah-rethinkdb-plugin">ah-rethinkdb-plugin</a> RethinkDB + Mongoose</li>
-</ul>
+<p>You can view a list of plugins maintined by <a href="https://github.com/l0oky">@l0oky</a> via <a href="https://github.com/l0oky/awesome-actionhero"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a></p>
 
           <h1 id="servers">Servers</h1>
 <pre class="highlight javascript"><code><span class="kd">var</span> <span class="nx">initialize</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">api</span><span class="p">,</span> <span class="nx">options</span><span class="p">,</span> <span class="nx">next</span><span class="p">){</span>

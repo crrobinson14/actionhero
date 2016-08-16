@@ -64,19 +64,4 @@ If your plugin was installed via NPM, also be sure to remove it from your packag
 
 <h2 id="published-plugins">Published Plugins</h2>
 
-<ul>
-<li><a href="https://github.com/evantahler/ah-stats-plugin">ah-stats-plugin</a> Stats Integration (redis backed)</li>
-<li><a href="https://github.com/evantahler/ah-airbrake-plugin">ah-airbrake-plugin</a> Airbrake Integration</li>
-<li><a href="https://github.com/evantahler/ah-newrelic-plugin">ah-newrelic-plugin</a> NewRelic Integration</li>
-<li><a href="https://github.com/evantahler/ah-sequelize-plugin">ah-sequelize-plugin</a> Sequelize Integration for mySQL or Postgres</li>
-<li><a href="https://github.com/panjiesw/ah-nodemailer-plugin">ah-nodemailer-plugin</a> Nodemailer Integration</li>
-<li><a href="https://github.com/innerdvations/ah-ratelimit-plugin">ah-ratelimit-plugin</a> Rate Limits</li>
-<li><a href="https://github.com/innerdvations/ah-autosession-plugin">ah-autosession-plugin</a> Sessions (based off of redis-sessions)</li>
-<li><a href="https://github.com/S3bb1/ah-dashboard-plugin">ah-dashboard-plugin</a> Dashboard for ActionHero</li>
-<li><a href="https://github.com/lookaflyingdonkey/ah-jwtauth-plugin">ah-jwtauth-plugin</a> JSON Web Token Authentication</li>
-<li><a href="https://github.com/lookaflyingdonkey/ah-mongoose-plugin">ah-mongoose-plugin</a> Mongoose Model Loader</li>
-<li><a href="https://github.com/lookaflyingdonkey/ah-xsignature-plugin">ah-xsignature-plugin</a> Content Checksum for Actions</li>
-<li><a href="https://github.com/supamii/ah-swagger-plugin">ah-swagger-plugin</a> Swagger UI Documentation</li>
-<li><a href="https://github.com/eduardogch/ah-mongodb-plugin">ah-mongodb-plugin</a> MongoDB + Mongoose</li>
-<li><a href="https://github.com/eduardogch/ah-rethinkdb-plugin">ah-rethinkdb-plugin</a> RethinkDB + Mongoose</li>
-</ul>
+<p>You can view a list of plugins maintined by <a href="https://github.com/l0oky">@l0oky</a> via <a href="https://github.com/l0oky/awesome-actionhero"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a></p>

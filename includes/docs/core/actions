@@ -259,6 +259,7 @@
       <span class="na">formatter</span><span class="p">:</span> <span class="p">[</span>
          <span class="kd">function</span><span class="p">(</span><span class="nx">s</span><span class="p">){</span> <span class="k">return</span> <span class="nb">String</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span> <span class="p">},</span>
          <span class="s1">'api.formatter.uniqueKeyName'</span> <span class="c1">// &lt;----------- HERE</span>
+      <span class="p">]</span>
     <span class="p">},</span>
     <span class="na">value</span><span class="p">:</span> <span class="p">{</span>
       <span class="na">required</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
@@ -304,7 +305,7 @@
 <span class="p">}</span>
 </code></pre>
 
-<p>The <code class="prettyprint">data</code> object passed into your action captures the state of of the connection at the time the action was started.  Midleware preProcessors have already fired, and input formatting and validation has occurred.  Here are the properties of the <code class="prettyprint">data</code> object:</p>
+<p>The <code class="prettyprint">data</code> object passed into your action captures the state of the connection at the time the action was started.  Midleware preProcessors have already fired, and input formatting and validation has occurred.  Here are the properties of the <code class="prettyprint">data</code> object:</p>
 
 <p>The goal of most actions is to do work and then modify the value of <code class="prettyprint">data.response</code>, which will eventually be sent down to the client.  </p>
 
