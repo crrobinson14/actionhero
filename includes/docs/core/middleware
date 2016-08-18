@@ -227,9 +227,7 @@
       <span class="p">}</span>
     <span class="p">};</span>
 
-    <span class="nx">api</span><span class="p">.</span><span class="nx">tasks</span><span class="p">.</span><span class="nx">addMiddleware</span><span class="p">(</span><span class="nx">api</span><span class="p">.</span><span class="nx">taskTimer</span><span class="p">.</span><span class="nx">middleware</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">error</span><span class="p">){</span>
-      <span class="nx">next</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
-    <span class="p">});</span>
+    <span class="nx">api</span><span class="p">.</span><span class="nx">tasks</span><span class="p">.</span><span class="nx">addMiddleware</span><span class="p">(</span><span class="nx">api</span><span class="p">.</span><span class="nx">taskTimer</span><span class="p">.</span><span class="nx">middleware</span><span class="p">);</span>
   <span class="p">}</span>
 <span class="p">};</span>
 </code></pre>
